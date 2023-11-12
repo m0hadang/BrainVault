@@ -1,0 +1,13 @@
+{
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-light": true,
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-dark": true,
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": true,
+  "anuppuccin-theme-settings@@anp-active-line": "anp-current-line",
+  "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-block",
+  "anuppuccin-theme-settings@@anp-header-color-toggle": true,
+  "anuppuccin-theme-settings@@anp-header-margin-toggle": true,
+  "anuppuccin-theme-settings@@anp-decoration-toggle": true,
+  "anuppuccin-theme-settings@@anp-bold-custom": "anp-bold-yellow",
+  "anuppuccin-theme-settings@@anp-highlight-custom": "anp-highlight-pink",
+  "anuppuccin-theme-settings@@anp-background-image-toggle": true
+}

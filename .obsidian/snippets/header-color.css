@@ -1,0 +1,47 @@
+/*for "Source mode" and "Live Preview"*/
+
+.inline-title {
+  color: #e056fd;
+  font-family: "여기어때 잘난체 OTF";
+  font-size: xx-large;
+}
+
+.metadata-properties-heading {
+  font-family: "여기어때 잘난체 OTF";
+  font-size: x-large;
+}
+
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5 {
+  color: transparent;
+  background-image: linear-gradient(to right, #3FB595, #f46737);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 10s infinite alternate-reverse;  
+  font-family: "여기어때 잘난체 OTF";
+  padding-bottom: 2px;
+}
+
+/*for "Source mode"*/
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5 {
+  color: transparent;
+  background-image: linear-gradient(to right, #3FB595, #f46737);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 10s infinite alternate-reverse;  
+  font-family: "여기어때 잘난체 OTF";
+}
+
+/* url("https://images.pexels.com/photos/1819656/pexels-photo-1819656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") */
+/* url("https://images.pexels.com/photos/1819656/pexels-photo-1819656.jpeg") */
