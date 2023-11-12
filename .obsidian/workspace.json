@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_Project/NVim, NvChad 명령어.md",
+                "file": "1_Project/RefCell, Rc의 소유권 사용 시 주의점.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1_Project/NVim, NvChad 명령어.md",
+                "file": "1_Project/RefCell, Rc의 소유권 사용 시 주의점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1_Project/NVim, NvChad 명령어.md",
+                "file": "1_Project/RefCell, Rc의 소유권 사용 시 주의점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1_Project/NVim, NvChad 명령어.md"
+                "file": "1_Project/RefCell, Rc의 소유권 사용 시 주의점.md"
               }
             }
           }
@@ -150,12 +150,13 @@
   },
   "active": "c1b7607455161305",
   "lastOpenFiles": [
-    "1_Project/NVim, NvChad 설치, 환경 설정.md",
-    "1_Project/NVim, NvChad 명령어.md",
-    "1_Project/편집기의 플러그인.md",
-    "Pasted image 20231112155728.png",
-    "Pasted image 20231112155725.png",
     "3_Resource/Pasted image 20231112153335.png",
+    "3_Resource/Pasted image 20231112155725.png",
+    "3_Resource/Pasted image 20231112155728.png",
+    "1_Project/RefCell, Rc의 소유권 사용 시 주의점.md",
+    "1_Project/NVim, NvChad 명령어.md",
+    "1_Project/NVim, NvChad 설치, 환경 설정.md",
+    "1_Project/편집기의 플러그인.md",
     "Sample/Sample Page.md",
     "3_Resource/thumbnail/rust.png",
     "Templates/Rust.md",
