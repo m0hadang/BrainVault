@@ -1,4 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Resource"
+  "attachmentFolderPath": "Image",
+  "vimMode": false,
+  "spellcheck": true
 }
