@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e39204d152e55ef7",
+            "id": "1f77f0fd1b050577",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/DDD Start/DDD START.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c68bd99174cc18a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.Project(Target, Deadlilne)/DDD Start/DDD START.md",
+                "file": "1.Project(Target, Deadlilne)/DDD Start/Note.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/DDD Start/DDD START.md",
+                "file": "1.Project(Target, Deadlilne)/DDD Start/Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/DDD Start/DDD START.md",
+                "file": "1.Project(Target, Deadlilne)/DDD Start/Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/DDD Start/DDD START.md"
+                "file": "1.Project(Target, Deadlilne)/DDD Start/Note.md"
               }
             }
           },
@@ -169,18 +156,25 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c68bd99174cc18a7",
+  "active": "1f77f0fd1b050577",
   "lastOpenFiles": [
-    "Image/DDD Architecture.png",
+    "1.Project(Target, Deadlilne)/DDD Start/Aggregate.md",
+    "Image/Pasted image 20231126144014.png",
+    "Image/Pasted image 20231126144002.png",
+    "Image/Pasted image 20231126143803.png",
+    "Image/KakaoTalk_20231126_143211404.jpg",
+    "Image/Pasted image 20231126142610.png",
+    "Image/KakaoTalk_20231126_142250897.jpg",
+    "Image/KakaoTalk_20231126_141638196.jpg",
+    "Image/KakaoTalk_20231126_140936937.jpg",
+    "Image/KakaoTalk_20231126_135756733.jpg",
+    "Image/KakaoTalk_20231126_133532827.jpg",
+    "1.Project(Target, Deadlilne)/DDD Start/Domain 구성요소.md",
     "1.Project(Target, Deadlilne)/DDD Start/Note.md",
     "1.Project(Target, Deadlilne)/DDD Start/DDD START.md",
+    "Sample/Sample Page.md",
+    "Sample/Intro.md",
     "1.Project(Target, Deadlilne)/DDD Start/Presentation Layer.md",
-    "Image/thumbnail/rust.png",
-    "Image/00 - Order Domain.jpg",
-    "Image/KakaoTalk_20231119_201045466.jpg",
-    "Image/Pasted image 20231112153335.png",
-    "Image/Pasted image 20231112155725.png",
-    "Image/Pasted image 20231112155728.png",
     "1.Project(Target, Deadlilne)/TODO.md",
     "3.Resource(Subject)/Spring",
     "3.Resource(Subject)/Rust/RefCell, Rc의 소유권 사용 시 주의점.md",
@@ -193,19 +187,14 @@
     "Image",
     "Untitled.md",
     "1.Project(Target, Deadlilne)/DDD Start",
-    "Sample/Sample Page.md",
     "Templates/Rust.md",
     "Templates/kotlin.md",
-    "Sample/lofi.png",
-    "Sample/Intro.md",
-    "3_Resource/thumbnail/Pasted image 20231112151553.jpg",
     "Image/thumbnail",
     "3_Resource/Untitled",
     "4.Archive(Cold)",
     "3.Resource(Subject)",
     "2.Area(Area of Responsibility, No Deadline)",
     "BlackImage.webp.md",
-    "Resource/Pasted image 20231007173506.png",
     "Resource/Untitled.md",
     "Pasted image 20230924204513.png.md",
     "Untitled 1.md",

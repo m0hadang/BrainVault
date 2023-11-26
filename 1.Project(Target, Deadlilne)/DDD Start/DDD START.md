@@ -41,7 +41,6 @@ Domain 모델은 기본적으로 Domain 자체를 이해하기 위한 개념 모
 각 하위 Domain이 다루는 영역은 서로 다르기 때문에 같은 용어라도 하위 Domain마다 의미가 달라질 수 있다.
 
 ex) 상품
-
 - Catalog Domain : 상품 가격 상세 내용을 담고 있는 정보.
 - 배송 Domain : 고객에게 실제 배송 되는 물리적인 상품.
 
@@ -140,7 +139,7 @@ Order order = new Order(orderer, lines, OrderState.PREPARING);
 Immutable Value Type을 사용하면 자연스럽게 Value Type에는 set method를 구현하지 않는다. set method를 구현해야 할 특별한 이유가 없다면 Immutable 타입의 장점을 살릴 수 있도록 Value Type은 Immutable으로 구현 하는것이 좋다.
 
 
-# Architecture
+# Architecture 역할
 
 Presentation Layer : User의 요청을 해석해서 Application Layer에 전달. Application Layer에 존재하는 Application Service의 실핼 결과를 User가 이해할 수 있는 형식으로 변환해서 응답.
 - ex) Spring MVC
@@ -150,4 +149,56 @@ Application Layer : 시스템이 사용자에게 제공해야 할 기능을 구�
 
 Application Layer는 기능을 구현하기 위해 Domain Layer의 모델을 사용. Application Service는 Logic을 직접 수행하기보다는 Domain Model에 Logic 수행을 위임한다.
 
-![[DDD Architecture.png]]
+![[DDD Architecture Role.png]]
+
+# 고수준, 저수준 DIP
+
+
+고수준, 저수준, DIP
+
+![[KakaoTalk_20231126_091347775.jpg]]
+
+고수준 모듈
+- ex) CalculateDiscountService : "가격 할인 계산"이라는 기능 구현
+- 고수준 모듈은 "의미 있는" 단일 기능을 제공하는 모듈.
+- 고수준 모듈의 기능을 구현하려면 여러 하위 기능이 필요
+
+저수준 모듈
+- ex) JPA 모듈, Drools 모듈
+- 하위 기능을 실제로 구현
+
+의존성 문제
+- 고수준 모듈이 제대로 동작하려면 저수준 모듈을 사용해야 한다. 
+- 고수준 모듈이 저수준 모듈을 사용하면서 두가지 문제가 발생할 수 있다.
+	- 구현 변경 어려움
+	- 테스트 어려움
+
+문제를 해결하기 위해 저수준 모듈이 고수준 모듈에 의존하도록 바꾼다.
+- 추상화한 인터페이스 사용
+
+![[DDD Architecture Dependency.png]]
+
+
+DIP 주의사항
+- DIP의 핵심은 고수준 모듈이 저수준 모듈에 의존하지 않도록 하는 것이다.
+- 인터페이스로 추출 하였다고 고수준 모듈과 저수준 모듈 의존성을 제거한 것이 아니다.
+- ex) 잘못된 구조
+	- ![[KakaoTalk_20231126_094148130.jpg]]
+	- 인터페이스로 추출 하였지만 여전히 도메인 계층이 인프라 계층에 의존하고 있따.
+	- CalculateDiscountService 입장에서 봤을 때 할인 금액을 구하기 위해 룰 엔진을 사용하는지, 직접 연산하는지 여부는 중요하지 않다. 단지 규칙에 따라 할인 금액을 계산한다는 것이 중요할 뿐이다.
+- (i) RuleDiscounter : 할인 금액 계산 역할을 표현하는 인터페이스 -> 고수준 모듈
+- (i) RuleEngine : 룰엔진 역할을 표현하는 인터페이스 -> 저수준 모듈
+
+# Architecture DIP
+
+![[인프라 DIP 적용.png]]
+
+
+인프라에 위치란 클래스가 도메인이나 응용 영역에 정의한 인터페이스를 상속받아 구현하는 구조가 되므로 도메인과 응용 영역에 대한 영향을 주지 않거나 최소화하면서 구현 기술을 변경하는 것이 가능하다.
+
+ex) 구현 기술 변경
+- before
+	- ![[KakaoTalk_20231126_104545045.jpg]]
+- after
+	- ![[KakaoTalk_20231126_104916134.jpg]]
+

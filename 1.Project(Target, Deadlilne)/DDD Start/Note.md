@@ -37,3 +37,4 @@ Web Application 개발할 때 많이 사용하는 Spring MVC Framework 가 Prese
 Presentation Layer의 User는 Web Browser를 사용하는 사람일 수 있고, REST API를 호출하는 External System일 수 있다.
 
 Web Application은 HTTP 요청을 Application Layer가 필요로 하는 형식으로 변환해서 Application Layer에 전달. Application Layer의 응답을 HTTP 응답으로 변환해서 전송.
+
