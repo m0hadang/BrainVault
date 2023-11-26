@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/DDD Start/Note.md",
+                "file": "1.Project(Target, Deadlilne)/Jay Forten/04.품사(형용사, 부사).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/DDD Start/Note.md",
+                "file": "1.Project(Target, Deadlilne)/Jay Forten/04.품사(형용사, 부사).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/DDD Start/Note.md",
+                "file": "1.Project(Target, Deadlilne)/Jay Forten/04.품사(형용사, 부사).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/DDD Start/Note.md"
+                "file": "1.Project(Target, Deadlilne)/Jay Forten/04.품사(형용사, 부사).md"
               }
             }
           },
@@ -136,9 +136,17 @@
               "type": "mermaid-toolbar-view",
               "state": {}
             }
+          },
+          {
+            "id": "5936cdf38de7e345",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -158,6 +166,12 @@
   },
   "active": "1f77f0fd1b050577",
   "lastOpenFiles": [
+    "1.Project(Target, Deadlilne)/Jay Forten/03.품사(명사).md",
+    "1.Project(Target, Deadlilne)/Jay Forten/04.품사(형용사, 부사).md",
+    "1.Project(Target, Deadlilne)/Jay Forten/02.품사와 형식.md",
+    "1.Project(Target, Deadlilne)/Jay Forten/01.오리엔테이션.md",
+    "1.Project(Target, Deadlilne)/DDD Start/Note.md",
+    "1.Project(Target, Deadlilne)/Jay Forten",
     "1.Project(Target, Deadlilne)/DDD Start/Aggregate.md",
     "Image/Pasted image 20231126144014.png",
     "Image/Pasted image 20231126144002.png",
@@ -170,7 +184,6 @@
     "Image/KakaoTalk_20231126_135756733.jpg",
     "Image/KakaoTalk_20231126_133532827.jpg",
     "1.Project(Target, Deadlilne)/DDD Start/Domain 구성요소.md",
-    "1.Project(Target, Deadlilne)/DDD Start/Note.md",
     "1.Project(Target, Deadlilne)/DDD Start/DDD START.md",
     "Sample/Sample Page.md",
     "Sample/Intro.md",
@@ -185,7 +198,6 @@
     "1.Project(Target, Deadlilne)/차량 구매.md",
     "4.Archive(Cold)/편집기의 플러그인.md",
     "Image",
-    "Untitled.md",
     "1.Project(Target, Deadlilne)/DDD Start",
     "Templates/Rust.md",
     "Templates/kotlin.md",
@@ -193,7 +205,6 @@
     "3_Resource/Untitled",
     "4.Archive(Cold)",
     "3.Resource(Subject)",
-    "2.Area(Area of Responsibility, No Deadline)",
     "BlackImage.webp.md",
     "Resource/Untitled.md",
     "Pasted image 20230924204513.png.md",
