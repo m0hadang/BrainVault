@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "7455665d7d0aa315",
+        "id": "61ad9249a12a18b8",
         "type": "tabs",
         "children": [
           {
-            "id": "1f77f0fd1b050577",
+            "id": "8b00540432a963c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/Jay Forten/04.품사(형용사, 부사).md",
+                "file": "3.Resource(Subject)/DB/안전한 COMMIT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf64f58af1e07708",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3.Resource(Subject)/DB/Lock.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/Jay Forten/04.품사(형용사, 부사).md",
+                "file": "3.Resource(Subject)/DB/Lock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/Jay Forten/04.품사(형용사, 부사).md",
+                "file": "3.Resource(Subject)/DB/Lock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.Project(Target, Deadlilne)/Jay Forten/04.품사(형용사, 부사).md"
+                "file": "3.Resource(Subject)/DB/Lock.md"
               }
             }
           },
@@ -164,15 +177,29 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1f77f0fd1b050577",
+  "active": "bf64f58af1e07708",
   "lastOpenFiles": [
-    "1.Project(Target, Deadlilne)/Jay Forten/03.품사(명사).md",
-    "1.Project(Target, Deadlilne)/Jay Forten/04.품사(형용사, 부사).md",
-    "1.Project(Target, Deadlilne)/Jay Forten/02.품사와 형식.md",
-    "1.Project(Target, Deadlilne)/Jay Forten/01.오리엔테이션.md",
-    "1.Project(Target, Deadlilne)/DDD Start/Note.md",
-    "1.Project(Target, Deadlilne)/Jay Forten",
-    "1.Project(Target, Deadlilne)/DDD Start/Aggregate.md",
+    "3.Resource(Subject)/DB/Transaction.md",
+    "3.Resource(Subject)/DB/Lock.md",
+    "3.Resource(Subject)/DB/AUTOCOMMIT 모드.md",
+    "3.Resource(Subject)/DB/안전한 COMMIT.md",
+    "3.Resource(Subject)/DDD Start/Domain 구성요소.md",
+    "3.Resource(Subject)/DB",
+    "3.Resource(Subject)/DDD Start/DDD START.md",
+    "Image/DDD Architecture Role.png",
+    "3.Resource(Subject)/DDD Start/Note.md",
+    "3.Resource(Subject)/DDD Start/Aggregate.md",
+    "Image/00 - Order Domain.jpg",
+    "3.Resource(Subject)/Rust/RefCell, Rc의 소유권 사용 시 주의점.md",
+    "3.Resource(Subject)/NVim/NVim, NvChad 명령어.md",
+    "3.Resource(Subject)/NVim/NVim, NvChad 설치, 환경 설정.md",
+    "4.Archive(Cold)/편집기의 플러그인.md",
+    "Image/KakaoTalk_20231126_130230376.jpg",
+    "3.Resource(Subject)/Jay Forten/04.품사(형용사, 부사).md",
+    "3.Resource(Subject)/Jay Forten/03.품사(명사).md",
+    "3.Resource(Subject)/Jay Forten/02.품사와 형식.md",
+    "3.Resource(Subject)/Jay Forten/01.오리엔테이션.md",
+    "3.Resource(Subject)/Jay Forten",
     "Image/Pasted image 20231126144014.png",
     "Image/Pasted image 20231126144002.png",
     "Image/Pasted image 20231126143803.png",
@@ -180,35 +207,23 @@
     "Image/Pasted image 20231126142610.png",
     "Image/KakaoTalk_20231126_142250897.jpg",
     "Image/KakaoTalk_20231126_141638196.jpg",
-    "Image/KakaoTalk_20231126_140936937.jpg",
-    "Image/KakaoTalk_20231126_135756733.jpg",
-    "Image/KakaoTalk_20231126_133532827.jpg",
-    "1.Project(Target, Deadlilne)/DDD Start/Domain 구성요소.md",
-    "1.Project(Target, Deadlilne)/DDD Start/DDD START.md",
     "Sample/Sample Page.md",
     "Sample/Intro.md",
     "1.Project(Target, Deadlilne)/DDD Start/Presentation Layer.md",
     "1.Project(Target, Deadlilne)/TODO.md",
     "3.Resource(Subject)/Spring",
-    "3.Resource(Subject)/Rust/RefCell, Rc의 소유권 사용 시 주의점.md",
     "3.Resource(Subject)/Rust",
-    "3.Resource(Subject)/NVim/NVim, NvChad 명령어.md",
-    "3.Resource(Subject)/NVim/NVim, NvChad 설치, 환경 설정.md",
     "3.Resource(Subject)/NVim",
     "1.Project(Target, Deadlilne)/차량 구매.md",
-    "4.Archive(Cold)/편집기의 플러그인.md",
     "Image",
-    "1.Project(Target, Deadlilne)/DDD Start",
+    "3.Resource(Subject)/DDD Start",
     "Templates/Rust.md",
     "Templates/kotlin.md",
     "Image/thumbnail",
     "3_Resource/Untitled",
     "4.Archive(Cold)",
-    "3.Resource(Subject)",
     "BlackImage.webp.md",
     "Resource/Untitled.md",
-    "Pasted image 20230924204513.png.md",
-    "Untitled 1.md",
-    "Untitled 2.md"
+    "Pasted image 20230924204513.png.md"
   ]
 }
