@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b00540432a963c1",
+            "id": "4f55dc45c5c22dc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.Resource(Subject)/DB/안전한 COMMIT.md",
+                "file": "3.Resource(Subject)/Jay Forten/07.형식(4,5).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bf64f58af1e07708",
+            "id": "1c086bb829181d89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.Resource(Subject)/DB/Lock.md",
+                "file": "3.Resource(Subject)/Jay Forten/08.형식.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.Resource(Subject)/DB/Lock.md",
+                "file": "3.Resource(Subject)/Jay Forten/08.형식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.Resource(Subject)/DB/Lock.md",
+                "file": "3.Resource(Subject)/Jay Forten/08.형식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.Resource(Subject)/DB/Lock.md"
+                "file": "3.Resource(Subject)/Jay Forten/08.형식.md"
               }
             }
           },
@@ -177,12 +177,25 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bf64f58af1e07708",
+  "active": "1c086bb829181d89",
   "lastOpenFiles": [
+    "3.Resource(Subject)/Jay Forten/07.형식(4,5).md",
+    "3.Resource(Subject)/Jay Forten/08.형식.md",
+    "3.Resource(Subject)/Jay Forten/06.형식(1,2,3).md",
+    "3.Resource(Subject)/Jay Forten/05. Dentrosy.md",
+    "3.Resource(Subject)/Jay Forten/04.품사(형용사, 부사).md",
+    "3.Resource(Subject)/Jay Forten/03.품사(명사).md",
+    "3.Resource(Subject)/Jay Forten/02.품사와 형식.md",
+    "3.Resource(Subject)/Jay Forten/01.오리엔테이션.md",
+    "3.Resource(Subject)/DB/안전한 COMMIT.md",
+    "3.Resource(Subject)/DB/Key.md",
+    "3.Resource(Subject)/DB/InnoDB 스토리지 엔진.md",
+    "Image/Pasted image 20231210191549.png",
+    "Image/Pasted image 20231210191035.png",
+    "Image/Pasted image 20231210191016.png",
     "3.Resource(Subject)/DB/Transaction.md",
     "3.Resource(Subject)/DB/Lock.md",
     "3.Resource(Subject)/DB/AUTOCOMMIT 모드.md",
-    "3.Resource(Subject)/DB/안전한 COMMIT.md",
     "3.Resource(Subject)/DDD Start/Domain 구성요소.md",
     "3.Resource(Subject)/DB",
     "3.Resource(Subject)/DDD Start/DDD START.md",
@@ -195,18 +208,11 @@
     "3.Resource(Subject)/NVim/NVim, NvChad 설치, 환경 설정.md",
     "4.Archive(Cold)/편집기의 플러그인.md",
     "Image/KakaoTalk_20231126_130230376.jpg",
-    "3.Resource(Subject)/Jay Forten/04.품사(형용사, 부사).md",
-    "3.Resource(Subject)/Jay Forten/03.품사(명사).md",
-    "3.Resource(Subject)/Jay Forten/02.품사와 형식.md",
-    "3.Resource(Subject)/Jay Forten/01.오리엔테이션.md",
     "3.Resource(Subject)/Jay Forten",
     "Image/Pasted image 20231126144014.png",
     "Image/Pasted image 20231126144002.png",
     "Image/Pasted image 20231126143803.png",
     "Image/KakaoTalk_20231126_143211404.jpg",
-    "Image/Pasted image 20231126142610.png",
-    "Image/KakaoTalk_20231126_142250897.jpg",
-    "Image/KakaoTalk_20231126_141638196.jpg",
     "Sample/Sample Page.md",
     "Sample/Intro.md",
     "1.Project(Target, Deadlilne)/DDD Start/Presentation Layer.md",
@@ -214,16 +220,10 @@
     "3.Resource(Subject)/Spring",
     "3.Resource(Subject)/Rust",
     "3.Resource(Subject)/NVim",
-    "1.Project(Target, Deadlilne)/차량 구매.md",
     "Image",
     "3.Resource(Subject)/DDD Start",
-    "Templates/Rust.md",
-    "Templates/kotlin.md",
     "Image/thumbnail",
     "3_Resource/Untitled",
-    "4.Archive(Cold)",
-    "BlackImage.webp.md",
-    "Resource/Untitled.md",
-    "Pasted image 20230924204513.png.md"
+    "4.Archive(Cold)"
   ]
 }
